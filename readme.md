@@ -15,7 +15,7 @@ Also user can delete images from favorites.</br>
 Также пользователь может удалять изображения из избранного</br>
 
 ## Previews / Превью
-| Change image by timer /</br> Смена изображения по таймеру | Check if image already in DB /</br> Проверка наличия этого изображения в БД |
+| Change image by timer /</br> Смена изображения по таймеру | Check if image already in DB /</br> Проверка наличия изображения в БД |
 |:-------------:|:-------------:|
 |<img  src="./readme_assets/change_by_timer.gif" width="70%">|<img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="70%">|
 
