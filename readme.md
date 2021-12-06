@@ -38,11 +38,11 @@ I just finished writing some code. In it, you can notice that I used the MVP arc
 - I have to do a pure power MVP
 - The application lacks element animation (fade in, fade out, and so on)
 - Unit tests weren't written either.
-</br>Actually, these three tasks I have to solve
+</p>Actually, these three tasks I have to solve</p>
 
 ###### Russian
 Я только что закончил писать код. В нем вы можете заметить, что я сначала использовал архитектуру MVP, но потом вы увидите лапшу. Так что:
 - Мне нужно сделать MVP в чистом виде
 - В приложении отсутствует анимация элементов (нарастание, затухание и т. д.)
 - Юнит-тесты тоже не были написаны.
-</br>Собственно, эти три задачи мне предстоит решить.
+<p>Собственно, эти три задачи мне предстоит решить.</p>
