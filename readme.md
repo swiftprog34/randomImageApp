@@ -1,6 +1,6 @@
 # Random image app
 ## Previews
-| Change image by timer / Смена изображения по таймеру | Check if image already in DB / Проверка наличия этого изображения в БД |
+| Change image by timer /</br> Смена изображения по таймеру | Check if image already in DB /</br> Проверка наличия этого изображения в БД |
 |:-------------:|:-------------:|
 |<img  src="./readme_assets/change_by_timer.gif" width="70%">|<img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="70%">|
 
