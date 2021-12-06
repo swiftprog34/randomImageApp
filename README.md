@@ -12,3 +12,8 @@ Also user can delete images from favorites.</br>
 В этом приложении пользователь может видеть случайные изображения. Изображение будет изменяться на новое по таймеру</br>
 Также пользователь может добавить понравившееся изображение в избранное и просмотреть его на другом экране.</br>
 также пользователь может удалять изображения из избранного</br>
+
+## Used technoligies
+- Drag and drop is implemented with native html5 drag and drop api with @drag, @dragend, @dragenter eventlisteners on the Card.vue component.
+- Libraries like Vue.draggable were not used as i had to write most of the drag and drop logic according to the solitaire game type and I also had to **MOVE** the stack of cards.
+- Ghost image in drag is removed instead the **whole stack** of card moves with cursor change.
