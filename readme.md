@@ -1,10 +1,9 @@
 # Random image app
 ## Previews
-| change image by timer | Are            | Cool   | 
-| :------------- |:-------------:| :-----:|
-| col 3 is      | right-aligned  | $1600  |
-| col 2 is      | centered       |   $12  |
-| zebra stripes | are neat       |    $1  |
+| Change image by timer | Check if iamge already in DB | Add to favorites | Delete from favorites |
+| :------------- |:-------------:| :-----:| :-----:|
+| <img  src="./readme_assets/change_by_timer.gif" width="30%">| <img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="30%">  | <img  src="./readme_assets/adding_image_to_favorites.gif" width="30%">  |<img  src="./readme_assets/deleting_image_from_favorites.gif" width="30%"> |
+
 <p align="center"><img  src="./readme_assets/change_by_timer.gif" width="30%"></p>
 <p align="center"><img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="30%"></p>
 <p align="center"><img  src="./readme_assets/adding_image_to_favorites.gif" width="30%"></p>
