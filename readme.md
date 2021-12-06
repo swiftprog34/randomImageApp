@@ -27,7 +27,7 @@ Also user can delete images from favorites.</br>
 - Swift
 - UIKit without any storyboards (programmatically)
 - Core Data
-- Unsplash.com API
+- Unsplash.com JSON API
 - GSD
 - ARC
 
