@@ -15,7 +15,7 @@ Also user can delete images from favorites.</br>
 
 ## Used technoligies
 - Swift
-- UIKit without any storyboards
+- UIKit without any storyboards (programmatically)
 - Coredata
 - Unisplash.com API
 
