@@ -1,14 +1,6 @@
 # Random image app
-## Previews
-| Change image by timer /</br> Смена изображения по таймеру | Check if image already in DB /</br> Проверка наличия этого изображения в БД |
-|:-------------:|:-------------:|
-|<img  src="./readme_assets/change_by_timer.gif" width="70%">|<img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="70%">|
 
-| Add to favorites / Добавление в избранное | Delete from favorites / Удаление из избранного |
-|:-------------:|:-------------:|
-|<img  src="./readme_assets/adding_image_to_favorites.gif" width="70%">|<img  src="./readme_assets/deleting_image_from_favorites.gif" width="70%">|
-
-## About the project.
+## About the project / О проекте
 
 ###### English
 In that application I desided to make a custom servise which can directly take a random image with some info from unisplash.com and present it to user.</br>
@@ -22,13 +14,24 @@ Also user can delete images from favorites.</br>
 Также пользователь может добавить понравившееся изображение в избранное и просмотреть его на другом экране.</br>
 Также пользователь может удалять изображения из избранного</br>
 
-## Used technoligies
+## Previews / Превью
+| Change image by timer /</br> Смена изображения по таймеру | Check if image already in DB /</br> Проверка наличия этого изображения в БД |
+|:-------------:|:-------------:|
+|<img  src="./readme_assets/change_by_timer.gif" width="70%">|<img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="70%">|
+
+| Add to favorites / Добавление в избранное | Delete from favorites / Удаление из избранного |
+|:-------------:|:-------------:|
+|<img  src="./readme_assets/adding_image_to_favorites.gif" width="70%">|<img  src="./readme_assets/deleting_image_from_favorites.gif" width="70%">|
+
+## Used technoligies / Использованные технологии
 - Swift
 - UIKit without any storyboards (programmatically)
 - Coredata
 - Unisplash.com API
+- GSD
+- ARC
 
-## Future scope
+## Improvement plans / Планы по доработке
 
 ###### English
 I just finished writing some code. In it, you can notice that I used the MVP architecture at first, but then you will see noodles. So:
