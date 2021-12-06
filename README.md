@@ -1,5 +1,5 @@
 # Random image app
-Pet project #1
+## About the project.
 
 <h3>English</h3>
 In that application I desided to make a custom servise which can directly take a random image with some info from unisplash.com and present it to user.</br>
