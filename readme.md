@@ -1,10 +1,10 @@
 # Random image app
 ## Previews
-| Change image by timer | Check if image already in DB |
+| Change image by timer / Смена изображения по таймеру | Check if image already in DB / Проверка наличия этого изображения в БД |
 |:-------------:|:-------------:|
 |<img  src="./readme_assets/change_by_timer.gif" width="70%">|<img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="70%">|
 
-| Add to favorites | Delete from favorites |
+| Add to favorites / Добавление в избранное | Delete from favorites / Удаление из избранного |
 |:-------------:|:-------------:|
 |<img  src="./readme_assets/adding_image_to_favorites.gif" width="70%">|<img  src="./readme_assets/deleting_image_from_favorites.gif" width="70%">|
 
