@@ -21,7 +21,7 @@ class RandomImageViewController: UIViewController {
     
     var timer: Timer?
     
-    var secondsRemaining = 120
+    var secondsRemaining = 10
     
     let randomImageCreatedAtLabel: UILabel = {
         let randomImageCreatedAtLabel = UILabel()
@@ -190,7 +190,7 @@ class RandomImageViewController: UIViewController {
     func cancelTimer() {
         timer?.invalidate()
         timer = nil
-        secondsRemaining = 121
+        secondsRemaining = 11
     }
     
     func createTimer() {
@@ -265,11 +265,12 @@ extension RandomImageViewController: RandomImageViewProtocol {
     
     func failureGettingrandomImage(error: Error) {
         print(error.localizedDescription)
+        
     }
     
     func getRandomImage() {
         presenter.getRandomImage()
-//        createTimer()
+        createTimer()
     }
     
 }

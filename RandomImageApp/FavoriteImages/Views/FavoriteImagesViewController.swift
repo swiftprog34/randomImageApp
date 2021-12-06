@@ -104,22 +104,24 @@ class FavoriteImagesViewController: UIViewController, UICollectionViewDelegate, 
     }
     
     @objc private func triggerDeleteAction() {
-        let alert = UIAlertController(title: "Delete this image?", message: "Press \"Delete\" to delete current image", preferredStyle: .actionSheet)
-        alert.addAction(UIAlertAction(title: "Delete", style: .destructive, handler: { _ in
-            if let lpgr = self.lpgr {
-                self.deleteImageFromDB(gestureReconizer: lpgr)
-            }
-        }))
-        alert.addAction(UIAlertAction(title: "Return", style: .cancel, handler: { _ in
-            print("return")
-        }))
-        present(alert, animated: true, completion: nil)
+        if let lpgr = lpgr {
+            let point = lpgr.location(in: self.collectionView)
+            let alert = UIAlertController(title: "Delete this image?", message: "Press \"Delete\" to delete current image", preferredStyle: .actionSheet)
+            alert.addAction(UIAlertAction(title: "Delete", style: .destructive, handler: { _ in
+                if let lpgr = self.lpgr {
+                    self.deleteImageFromDB(gestureReconizer: lpgr, point: point)
+                }
+            }))
+            alert.addAction(UIAlertAction(title: "Return", style: .cancel, handler: { _ in
+                print("return")
+            }))
+            present(alert, animated: true, completion: nil)
+        }
     }
     
-    func deleteImageFromDB(gestureReconizer: UILongPressGestureRecognizer) {
+    func deleteImageFromDB(gestureReconizer: UILongPressGestureRecognizer, point: CGPoint) {
         guard gestureReconizer.state != .began else { return }
-        
-        let point = gestureReconizer.location(in: self.collectionView)
+
         if let collectionView = self.collectionView {
             let indexPath = collectionView.indexPathForItem(at: point)
             if let index = indexPath{
