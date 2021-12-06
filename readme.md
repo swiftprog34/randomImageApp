@@ -37,12 +37,12 @@ Also user can delete images from favorites.</br>
 I just finished writing some code. In it, you can notice that I used the MVP architecture at first, but then you will see noodles. So:
 - I have to do a pure power MVP
 - The application lacks element animation (fade in, fade out, and so on)
-- Unit tests are also not written.
+- Unit tests weren't written either.
 Actually, these three tasks I have to solve
 
 ###### Russian
 Я только что закончил писать код. В нем вы можете заметить, что я сначала использовал архитектуру MVP, но потом вы увидите лапшу. Так что:
 - Мне нужно сделать MVP в чистом виде
 - В приложении отсутствует анимация элементов (нарастание, затухание и т. д.)
-- Юнит-тесты тоже не пишутся.
+- Юнит-тесты тоже не были написаны.
 Собственно, эти три задачи мне предстоит решить.
