@@ -1,8 +1,8 @@
 # Random image app
 ## Previews
 | Change image by timer | Check if iamge already in DB | Add to favorites | Delete from favorites |
-| :------------- |:-------------:| :-----:| :-----:|
-| <img  src="./readme_assets/change_by_timer.gif" width="30%">| <img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="30%">  | <img  src="./readme_assets/adding_image_to_favorites.gif" width="30%">  |<img  src="./readme_assets/deleting_image_from_favorites.gif" width="30%"> |
+| :------------- :|:-------------:| :-----:| :-----:|
+| <img  src="./readme_assets/change_by_timer.gif" width="70%">| <img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="70%">  | <img  src="./readme_assets/adding_image_to_favorites.gif" width="70%">  |<img  src="./readme_assets/deleting_image_from_favorites.gif" width="70%"> |
 
 <p align="center"><img  src="./readme_assets/change_by_timer.gif" width="30%"></p>
 <p align="center"><img  src="./readme_assets/checking_if_image_is_already_in_db.gif" width="30%"></p>
