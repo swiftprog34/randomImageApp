@@ -91,16 +91,7 @@ class RandomImageViewController: UIViewController {
         self.addToFavoriteimagesButton.addTarget(self, action: #selector(didTapAddToFavoritesButton), for: .touchUpInside)
         
         getRandomImage()
-        
-//        let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "FavoriteImage")
-//        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
-//        let appDelegate = (UIApplication.shared.delegate as! AppDelegate)
-//        let context = appDelegate.context
-//        do {
-//            try appDelegate.persistentContainer.persistentStoreCoordinator.execute(deletlayouteRequest, with: context)
-//        } catch let error as NSError {
-//            // TODO: handle the error
-//        }
+
     }
 
 //MARK: Add to favorites action
