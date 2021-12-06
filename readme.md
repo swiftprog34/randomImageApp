@@ -23,7 +23,7 @@ Also user can delete images from favorites.</br>
 |:-------------:|:-------------:|
 |<img  src="./readme_assets/adding_image_to_favorites.gif" width="70%">|<img  src="./readme_assets/deleting_image_from_favorites.gif" width="70%">|
 
-## Used technologies / Использованные технологии
+## Technologies used / Используемые технологии
 - Swift
 - UIKit without any storyboards (programmatically)
 - Core Data
