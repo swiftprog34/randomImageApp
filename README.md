@@ -18,3 +18,8 @@ Also user can delete images from favorites.</br>
 - UIKit
 - Coredata
 - Unisplash.com API
+
+## Future scope
+
+I just finished writing some code. In it, you can notice that I used the MVP architecture at first, but then you will see noodles. In addition, the application lacks element animation (fade in, fade out, and so on). Unit tests are also not written.
+Actually, these three tasks I have to solve
